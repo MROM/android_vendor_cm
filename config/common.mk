@@ -2,7 +2,7 @@ PRODUCT_BRAND ?= cyanogenmod
 
 ifneq ($(TARGET_BOOTANIMATION_NAME),)
     PRODUCT_COPY_FILES += \
-        vendor/cm/prebuilt/common/bootanimation/$(TARGET_BOOTANIMATION_NAME).zip:system/media/bootanimation.zip
+        vendor/cm/prebuilt/common/bootanimation/MROM-bootanimation.zip:system/media/bootanimation.zip
 endif
 
 ifdef CM_NIGHTLY
