@@ -225,3 +225,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 
 -include $(WORKSPACE)/hudson/image-auto-bits.mk
+
+$(call inherit-product, vendor/mrom/mrom.mk)
