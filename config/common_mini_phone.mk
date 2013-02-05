@@ -18,5 +18,5 @@ PRODUCT_PACKAGES += \
 
 ifeq ($(TARGET_SCREEN_WIDTH) $(TARGET_SCREEN_HEIGHT),$(space))
     PRODUCT_COPY_FILES += \
-        vendor/cm/prebuilt/common/bootanimation/320.zip:system/media/bootanimation.zip
+        vendor/cm/prebuilt/common/bootanimation/mrom.zip:system/media/bootanimation.zip
 endif
