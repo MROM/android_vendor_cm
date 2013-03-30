@@ -94,6 +94,5 @@ __git_branch_ps1() {
 
 # Prompt functions should not error when in subshells
 export -f __gitdir
-export -f __git_ps1
 export -f __git_m_branch
 export -f __git_branch_ps1
